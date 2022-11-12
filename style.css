@@ -1,0 +1,79 @@
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+
+.musical{
+	position: relative;
+	top:-100px;
+	left: 20px;
+}
+.container{
+	border-bottom: 1px solid white;
+	padding-bottom: 7px;
+}
+.navbar-brand {
+
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url("mountain.jpg");
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact, #footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+#portfolio {
+	padding-top: 4rem;
+	padding-bottom: 6rem;
+}
