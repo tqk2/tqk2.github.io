@@ -66,7 +66,7 @@ html {
 
 
 /* spacing on all sections */
-#about, #services, #portfolio, #contact, #footer {
+#about, #services, #documents, #contact, #footer {
     margin-top: 4rem;
     padding-top: 2rem;
 }
