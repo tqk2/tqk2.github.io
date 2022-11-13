@@ -66,14 +66,14 @@ html {
 
 
 /* spacing on all sections */
-#about, #services, #documents, #contact, #footer {
+#about, #services, #portfolio, #contact, #footer {
     margin-top: 4rem;
     padding-top: 2rem;
 }
 #contact {
     padding-bottom: 4rem;
 }
-#documents {
+#portfolio {
 	padding-top: 4rem;
 	padding-bottom: 6rem;
 }
